@@ -64,3 +64,9 @@ footer p{
 .experience-area{
     background-image: url("images/latest-work-bg.png");
 }
+#full-stack{
+    border: 7px solid red;
+}
+#bull-stack{
+    border: 7px solid black;
+}
