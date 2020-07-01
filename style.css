@@ -39,7 +39,28 @@ section{width:100%;clear:both}
 .textalign{
     text-align: center;
 }
-div img{
-    float: left;
-    width: 5%;
+div{
+    padding: 0 45%;
+}
+.container{
+    background-color: tomato;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+.middle{
+    text-align: center;
+    }
+footer p{
+    text-align: center;
+}
+.pucka{
+    color: yellowgreen;
+}
+.single-area{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
+}
+.experience-area{
+    background-image: url("images/latest-work-bg.png");
 }
