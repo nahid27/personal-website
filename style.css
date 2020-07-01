@@ -5,12 +5,49 @@ body{
 .name_highlight{
 color: green;
 }
+
 .half-width{
-    width: 30%;
+    width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 3%;
     padding: 2%;
 }
 .half_width img{
-    width: 100%;
+    width: 80%;
+}
+.link_button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.top_banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+#bignahidvai{
+    width: 90%;
+}
+#second-banner{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+section{width:100%;clear:both}
+
+* {
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 30%;
+    padding: 2%;
+}
+.row::after{
+    content: "none";
+    display: table;
+    clear: both;
 }
