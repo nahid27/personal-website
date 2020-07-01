@@ -36,18 +36,10 @@ color: green;
     background-repeat: no-repeat;
 }
 section{width:100%;clear:both}
-
-* {
-    box-sizing: border-box;
+.textalign{
+    text-align: center;
 }
-
-.column{
+div img{
     float: left;
-    width: 30%;
-    padding: 2%;
-}
-.row::after{
-    content: "none";
-    display: table;
-    clear: both;
+    width: 5%;
 }
